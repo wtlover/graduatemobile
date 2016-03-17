@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="gifView">
+
+        <!-- 图片来源 -->
+        <attr name="src" format="integer" />
+
+        <!-- 播放延迟 -->
+        <attr name="delay" format="integer" />
+
+        <!-- 设置是否停止 -->
+        <attr name="stop" format="boolean" />
+    </declare-styleable>
+
+    <attr name="a_in"></attr>
+    <attr name="a_out"></attr>
+    <attr name="x_in"></attr>
+    <attr name="x_out"></attr>
+    <attr name="y_in"></attr>
+    <attr name="y_out"></attr>
+</resources>

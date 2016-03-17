@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="G:\My Work\WorkSpace Android\wan\res" >
+            <file
+                name="aim_common_bottom_in"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_common_bottom_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_common_bottom_out"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_common_bottom_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_common_fade_in"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_common_fade_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_common_fade_out"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_common_fade_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_common_left_in"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_common_left_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_common_left_out"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_common_left_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_common_right_in"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_common_right_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_common_right_out"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_common_right_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_common_top_in"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_common_top_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_common_top_out"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_common_top_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_common_zoom_in"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_common_zoom_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_common_zoom_out"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_common_zoom_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_ex_push_up_in"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_ex_push_up_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="aim_ex_push_up_out"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\aim_ex_push_up_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="pull_arrow_down"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\pull_arrow_down.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="pull_arrow_up"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\pull_arrow_up.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_left_in"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\push_left_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_left_out"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\push_left_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_right_in"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\push_right_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_right_out"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\push_right_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="rotate"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\rotate.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="scale2"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\scale2.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="update_loading_progressbar_anim"
+                path="G:\My Work\WorkSpace Android\wan\res\anim\update_loading_progressbar_anim.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="ic_launcher"
+                path="G:\My Work\WorkSpace Android\wan\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="btn_return_normal"
+                path="G:\My Work\WorkSpace Android\wan\res\drawable-ldpi\btn_return_normal.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="xsearch_loading"
+                path="G:\My Work\WorkSpace Android\wan\res\drawable-ldpi\xsearch_loading.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="G:\My Work\WorkSpace Android\wan\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="G:\My Work\WorkSpace Android\wan\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="G:\My Work\WorkSpace Android\wan\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="G:\My Work\WorkSpace Android\wan\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="G:\My Work\WorkSpace Android\wan\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="G:\My Work\WorkSpace Android\wan\res\values\attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="roundedimageview" >
+                    <attr
+                        name="border_thickness"
+                        format="dimension" />
+                    <attr
+                        name="border_inside_color"
+                        format="color" />
+                    <attr
+                        name="border_outside_color"
+                        format="color" />
+                </declare-styleable>
+                <declare-styleable name="FragmentIndicatorLayout" >
+                    <attr
+                        name="numberOfitems"
+                        format="integer" />
+                </declare-styleable>
+                <declare-styleable name="swipelistviewstyle" >
+                    <attr
+                        name="right_width"
+                        format="dimension" />
+                </declare-styleable>
+                <declare-styleable name="TabbarItemLayout" >
+                    <attr
+                        name="icon"
+                        format="integer" />
+                    <attr
+                        name="text"
+                        format="integer" />
+                    <attr name="textalignment" >
+                        <enum
+                            name="left"
+                            value="0" />
+                        <enum
+                            name="center"
+                            value="1" />
+                        <enum
+                            name="right"
+                            value="2" />
+                    </attr>
+                    <attr
+                        name="lefttext"
+                        format="integer" />
+                </declare-styleable>
+                <declare-styleable name="AimActionBar" >
+                    <attr
+                        name="text_left"
+                        format="reference|string" />
+                    <attr
+                        name="text_right"
+                        format="reference|string" />
+                    <attr
+                        name="text_title"
+                        format="reference|string" />
+                    <attr
+                        name="background"
+                        format="reference" />
+                    <attr
+                        name="background_left"
+                        format="reference" />
+                    <attr
+                        name="background_right"
+                        format="reference" />
+                    <attr
+                        name="background_title"
+                        format="reference" />
+                    <attr name="function" >
+                        <flag
+                            name="text_left"
+                            value="1" />
+                        <flag
+                            name="text_right"
+                            value="2" />
+                        <flag
+                            name="text_title"
+                            value="4" />
+                        <flag
+                            name="button_left"
+                            value="8" />
+                        <flag
+                            name="button_right"
+                            value="16" />
+                        <flag
+                            name="button_title"
+                            value="32" />
+                    </attr>
+                </declare-styleable>
+            </file>
+            <file
+                path="G:\My Work\WorkSpace Android\wan\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="G:\My Work\WorkSpace Android\wan\res\values\strings.xml"
+                qualifiers="" >
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >wan
+                </string>
+            </file>
+            <file
+                path="G:\My Work\WorkSpace Android\wan\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+            </file>
+            <file
+                path="G:\My Work\WorkSpace Android\wan\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="G:\My Work\WorkSpace Android\wan\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="G:\My Work\WorkSpace Android\wan\res\values-w820dp\dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+        </source>
+        <source path="G:\My Work\WorkSpace Android\wan\build\generated\res\rs\release" />
+        <source path="G:\My Work\WorkSpace Android\wan\build\generated\res\generated\release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="G:\My Work\WorkSpace Android\wan\build-types\release\res" />
+    </dataSet>
+
+</merger>

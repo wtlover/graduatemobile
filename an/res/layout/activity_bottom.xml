@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/comm_wh_mm"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        style="@style/Linearlayout_Style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@anim/linearlayout01" >
+
+        <TextView
+            android:id="@+id/fratext1"
+            style="@style/comm_wh_ww"
+            android:text="@string/home"
+            android:textColor="@color/red_true"
+            android:textSize="@dimen/test_size15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        style="@style/Linearlayout_Style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@anim/linearlayout01" >
+
+        <TextView
+            android:id="@+id/fratext2"
+            style="@style/comm_wh_ww"
+            android:text="@string/chat"
+            android:textColor="@color/White"
+            android:textSize="@dimen/test_size15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay3"
+        style="@style/Linearlayout_Style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@anim/linearlayout01" >
+
+        <TextView
+            android:id="@+id/fratext3"
+            style="@style/comm_wh_ww"
+            android:text="@string/aiyiqi"
+            android:textColor="@color/White"
+            android:textSize="@dimen/test_size15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay4"
+        style="@style/Linearlayout_Style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@anim/linearlayout01" >
+
+        <TextView
+            android:id="@+id/fratext4"
+            style="@style/comm_wh_ww"
+            android:text="@string/icon_loveme"
+            android:textColor="@color/White"
+            android:textSize="@dimen/test_size15" />
+    </LinearLayout>
+
+</LinearLayout>

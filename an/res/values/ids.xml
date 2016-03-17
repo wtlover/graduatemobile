@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="sunshuntao" type="id"></item>
+    <item name="containerAdapter" type="id"></item>
+    <item name="parallax_tag" type="id"></item>
+    <item name="parallax_pager" type="id"></item>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="unspecified" >
+        <source path="G:\My Work\WorkSpace Android\an\build\intermediates\exploded-aar\WorkSpace Android\wan\unspecified\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="G:\My Work\WorkSpace Android\an\assets" >
+            <file
+                name="addresslist.db3"
+                path="G:\My Work\WorkSpace Android\an\assets\addresslist.db3" />
+            <file
+                name="app.properties"
+                path="G:\My Work\WorkSpace Android\an\assets\app.properties" />
+            <file
+                name="combi.properties"
+                path="G:\My Work\WorkSpace Android\an\assets\combi.properties" />
+            <file
+                name="contacts.db3"
+                path="G:\My Work\WorkSpace Android\an\assets\contacts.db3" />
+            <file
+                name="contacts11.db3"
+                path="G:\My Work\WorkSpace Android\an\assets\contacts11.db3" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="G:\My Work\WorkSpace Android\an\build-types\debug\assets" />
+    </dataSet>
+
+</merger>

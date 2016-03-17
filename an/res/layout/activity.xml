@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.bgw.aw.utils.impl.Macro_PullToRefreshLayout
+        android:id="@+id/refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include layout="@layout/activity_refresh_head" />
+
+        <com.bgw.aw.utils.impl.Marco_PullToLinearlayout
+            android:id="@+id/content_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.bgw.aw.utils.impl.Macro_ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.bgw.aw.utils.impl.Marco_PullToLinearlayout>
+
+        <include layout="@layout/activity_load_more" />
+    </com.bgw.aw.utils.impl.Macro_PullToRefreshLayout>
+
+</LinearLayout>

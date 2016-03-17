@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">an</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="aw">AW</string>
+    <string name="bottom1">Copyright ©2015 AW All Rights Reserved</string>
+    <string name="bottom2">Blog：http://bgwan.blog.163.com/</string>
+    <string name="bottom3">http://staryumou.icoc.cc/</string>
+    <string name="alpha60">0.6</string>
+    <string name="top">Settings</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+
+    <drawable name="button_normal">#EE00EE</drawable>
+    <drawable name="button_pressed">#FF6A6A</drawable>
+
+    <string name="icon_message">我的消息</string>
+    <string name="icon_loveme">爱我</string>
+    <string name="icon_knowage">知识文库</string>
+    <string name="icon_aiqiyi">爱奇艺</string>
+    <string name="home">首页</string>
+    <string name="chat">聊天</string>
+    <string name="aiyiqi">爱奇艺</string>
+
+    <!-- chat string -->
+
+    <string name="btn_return">返    回</string>
+    <string name="chat_create">创建链接</string>
+    <string name="btn_next">下一步</string>
+    <string name="dialog_tips">提 示</string>
+    <string name="btn_finish">保    存</string>
+    <string name="dialog_loading">正在加载,请稍后...</string>
+    <string name="dialog_loading_failue">数据加载失败...</string>
+    <string name="welcome_btn_login">登 陆</string>
+    <string name="login_hint_nickname">输入您的昵称</string>
+    <string name="login_text_onlinestate">在线</string>
+    <string name="login_text_birthday">选择生辰</string>
+    <string name="login_text_age">岁</string>
+    <string name="login_text_birthdaytips">提醒：您的出生日期不会出现在个人资料中。</string>
+    <string name="login_text_zhanghao">提醒：您可以更换账号或以当前账号登陆。</string>
+    <string name="login_text_selectsex">选择性别</string>
+    <string name="login_text_male">男</string>
+    <string name="login_text_female">女</string>
+    <string name="login_text_lastlogin">上次登录: </string>
+    <string name="login_text_changeuser">更  换  账  户</string>
+    <string name="login_dialog_saveInfo">正在存储个人信息...</string>
+    <string name="login_toast_loginfailue">操作失败,请尝试重启程序。</string>
+    <string name="login_toast_nickname">请输入您的聊天昵称</string>
+    <string name="login_toast_sex">请选择性别</string>
+    <string name="wifiap_btn_connectwifi">点击连接</string>
+    <string name="wifiap_btn_disconnect">点击断开</string>
+    <string name="wifiap_text_searchap_empty">未搜索到可用热点，可尝试重新搜索</string>
+    <string name="wifiap_text_searchap_searching">正在搜索附近的热点</string>
+    <string name="wifiap_text_createap_failue">热点创建失败，请尝试重新创建</string>
+    <string name="wifiap_dialog_createap_nonsupport">您的设备不支持热点创建</string>
+    <string name="wifiap_text_createap_creating">正在创建热点</string>
+    <string name="wifiap_dialog_createap_closewifi_confirm">创建热点会关闭当前的WiFi，确认继续？</string>
+    <string name="wifiap_dialog_createap_used">系统热点被占用，请先关闭热点后点击确定继续下一步</string>
+    <string name="wifiap_dialog_searchap_closeap_confirm">是否关闭当前热点去搜索其他热点？</string>
+    <string name="wifiap_dialog_closeap_confirm">您确定需要关闭热点？</string>
+    <string name="wifiap_dialog_login_saveInfo">正在存储连接信息...</string>
+    <string name="wifiap_toast_connectap_unavailable">请创建热点或者连接一个热点</string>
+    <string name="wifiap_text_createap_succeed">热点创建成功！</string>
+    <string name="wifiap_text_connectap_ssid">\n热点名：</string>
+    <string name="chat_btn_send">发 送</string>
+    <string name="chat_dialog_record_cancel_move">向上滑动可取消录音</string>
+    <string name="chat_dialog_record_cancel_up">松开手指可取消录音</string>
+    <string name="chat_toast_record_shorttime">时间太短  录音失败</string>
+    <string name="setting_text_myprofile">我的资料</string>
+    <string name="setting_text_sysconfig">系统设置</string>
+    <string name="setting_text_sysconfig_sound">声音提醒</string>
+    <string name="setting_text_sysconfig_vibra">震动提醒</string>
+    <string name="setting_btn_cleandb">清除数据</string>
+    <string name="setting_btn_aboutus">关于爱我</string>
+    <string name="setting_btn_closeapp">退      出</string>
+    <string name="setting_btn_aw">回到爱我</string>
+    <string name="setting_dialog_chatlog_delete_confirm">删除聊天记录会删除接收的所有图片、语音、文件</string>
+    <string name="setting_dialog_chatlog_delete_ok">确 定</string>
+    <string name="setting_dialog_chatlog_delete_cancel">取 消</string>
+    <string name="setting_dialog_chatlog_deleting">正在删除聊天记录...</string>
+    <string name="setting_dialog_toast_delect_success">删除聊天记录成功</string>
+    <string name="setting_dialog_toast_delect_failue">操作失败,请尝试重启程序。</string>
+    <string name="setting_dialog_logout_confirm">确定要退出软件?</string>
+    <string name="setting_dialog_logout_ok">确 定</string>
+    <string name="setting_dialog_logout_cancel">取 消</string>
+    <string name="aboutus_text">爱你、仅献给我最亲爱的公主。</string>
+    <string name="maintab_text_message">消息</string>
+    <string name="maintab_text_nearby">附近</string>
+    <string name="maintab_text_setting">设置</string>
+    <string name="tabitem_toast_logout">再点击一次回到首页</string>
+    <string name="toast_sdcard_unavailable">SD卡不可用,请检查</string>
+    <string name="toast_file_manager_unavailable">缺少文件管理器</string>
+    <string name="text_file_send_select">请选择一个要发送的文件</string>
+    <string name="current_path_label">当前路径: </string>
+    <string name="select_path_for_save">选择接收文件的文件夹</string>
+    <string name="no_file">No files</string>
+    <string name="accept">接收</string>
+    <string name="close">关闭</string>
+
+    <!-- 音乐 -->
+    <string name="MyWordsToYou">感情就像一场雪，下的时候那般美，化的时候却这般凄凉。别再用我的过去来评价我，我早就不是以前那个我了。为了看那场雪... </string>
+    <string name="TO">“小秋子，为什么红豆⋯有一股水槽味啊⋯”
+ “这个⋯煮之前要用水泡的，不小心忘掉了，就，就泡了一夜⋯”小秋子低头搓着衣角，小嘴巴撅了起来。“小四月不吃的话⋯”
+
+“谁说我不吃的！”
+
+小秋子慢慢地把碗推到小四月面前，抬头用委屈的眼神看着。小四月端起碗，犹豫了一下，皱起眉毛，仰头喝了一大口。
+
+接着小四月的眼睛和腮帮子一样鼓鼓的，小秋子也跟着瞪大了眼睛。咕噜一下，小四月像是终于喘过气似的，不停捶着自己的胸口大笑。
+
+“哈哈哈哈哈小秋子你这个笨蛋！”
+ “唔⋯小四月，还有一大锅呢⋯”
+ “你怎么不吃呀。”
+ “做给小四月吃⋯昨天刚学的嘛。”小秋子的嘴巴撅得越厉害了。
+“有了小秋子！咱们可以加蜂蜜呀！”
+ “啊？”
+ “笨蛋！蜂蜜！我家里好多蜂蜜，我去拿哟。”
+
+咕噜噜，咕噜噜———春天的蜂蜜甜极了，那一天小四月喝下了整整一锅。
+
+红豆薏米汤，煮前将红小豆与薏米洗净后用清水浸泡。红小豆不易熟，浸泡四小时以上，薏米一小时即可。
+
+“小四月，一会吃午饭的时候，我去你班上找你，好不好。”
+ “怎么啦。”
+ “我⋯我给你带了红豆⋯”
+ “小秋子！你记不记得从小到大你都带了多少次红豆啦！”小四月戳了戳小秋子的脑门。
+“可是小四月不是喜欢的嘛，现在一点水槽味都没有啦。”
+
+走廊里小四月盯着小秋子，小秋子还像小时候一样，撅起嘴巴，摸了摸自己的脑门。上课铃响，顿时许多学生在走廊里飞奔，横窜一个竖窜一个。小四月被撞了个趔趄，小秋子赶忙上前抱住。相拥着，在一个接一个奔过的身影里停滞。
+
+也还像小时候取蜂蜜一样，小四月在椅子上用力地踮脚，伸手想要摸到柜子里的一罐蜂蜜。还没反应过来，就和椅子一起倒在地上了。怀里抱着蜂蜜，身下躺着小秋子。
+
+铃声停了，小秋子还呆呆站着。小四月的身影也飞奔着，消失在初夏溢满花香的走廊里。
+
+叮铃铃，叮铃铃———“小秋子，放学了，我们到图书馆，玉兰树那儿。”
+
+浸泡完后倒入锅中开火，先大火煮至水烧开，后转小火煮。其红小豆不易开花，可在煮沸之后继续倒入冷水，如此反复直至红小豆开花。
+
+“小秋子，你现在还那么早起？”
+ “嗯。”
+ “煮红豆？”
+ “嗯。”
+ “你可以晚上煮了，放冰箱里，多睡一会好。”
+ “秋天呀，小四月要喝热的。”
+ “早上再热一下不就好了。”
+ “那不好，不新鲜呐。”
+ “那晚上去你家喝行不行。”
+ “晚上冷，我给你送。”
+ “小秋子！！！”
+ “啊？！”
+
+小秋子吓得跳了起来，动静惊得头顶半枯的叶子飘落了几片。小四月坐在树下狠狠瞪着小秋子，小秋子惊恐得低头，揉搓着衣角。
+
+“小四月⋯小四月是怕么⋯”
+ “怕什么？”
+ “他们说⋯女孩子和女孩子⋯不可以⋯”
+ “不可以什么？”
+ “不可以⋯在一起⋯”
+ “一起什么？”
+ “不可以像⋯男孩子和女孩子那样⋯”
+ “哪样？”
+ “那样⋯”
+ “小秋子，你喜欢上下学都跟在我身后。”
+ “嗯。”
+ “你喜欢和我拥抱。”
+ “嗯。”
+ “你喜欢握着我的手，放进你大大的口袋里。”
+ “嗯。”
+ “小秋子，你只为我煮红豆。”
+ “嗯。”
+ “你想和我接吻。”
+ “嗯⋯⋯啊？！不是⋯小四月⋯我…”
+ “小秋子！我喜欢你！很喜欢！喜欢得快死了！”
+
+小四月在瑟瑟地秋风里起身，在飘摇的叶子间走近小秋子的面前，一吻冰凉，枯叶纷扬。小四月把脸埋进小秋子的怀里。
+
+一片叶子落到了头顶上。扑簌簌，扑簌簌———“可是小秋子，怎么办，冬天来的时候，我就要走了。”
+
+红小豆开花，熟前二十分钟可加入冰糖，待黏稠之后用汤匙搅拌，接着用小火煮至冰糖融化，蜂蜜也可。
+
+今天小秋子也起得很早，第一件事就是到门口翻信箱。清早小秋子的厨房里依然飘着浓浓的红豆香，而收到的信件却越来越少了，小秋子只得拿出以往的信件一一阅读。
+
+阅读前小秋子照旧把泡好的红豆和薏米倒入锅里，开火。
+
+小秋子，我这里是春天，你那里是冬天，我们隔了两个季节。我住的地方有很多很多鸽子，它们很喜欢吃玉米。昨天我丢了一颗红小豆，结果它牢牢卡在了鸽子的嘴巴上，也不知道它是怎么啄的，笨笨的样子很像你。
+
+小秋子，你在干嘛。我在数你给我的一把红小豆。我想过几天也去学学怎么煮，只是找不到薏米。直接煮红小豆也可以吧，好像一时也找不到蜂蜜。
+
+小秋子，我发现了一家很有趣的唱片店，里头老放着中文歌，是一个老爷爷。他有蓝色的眼睛，和他白白的头发很配，我很喜欢看着他，就像我们一起躺在草地上看着蓝天白云。
+
+水沸腾，小秋子起身往锅里倒入冷水，水霎时静了，小秋子盖好锅盖又坐回椅子上。
+
+小秋子，今天看见了一个和你很像的身影，我追了上去。发现她长得和你一点都不像，没有你好看。假如你也看见了和我很像的身影，你千万不要追上去，会很难过的。
+
+小秋子，你记得睡觉之前要把窗户关好，不然会感冒的。反正不会有人翻你窗户进来吃红豆了。
+
+水再次沸腾，小秋子用汤匙搅拌了几下。以往小秋子是笑得很开心的，她会把红豆薏米小心翼翼装进保温盒里，走在路上也小心翼翼捂在肚子里。这会不了，小秋子又一次被水汽熏出眼泪，倔起脸用袖子抹了抹眼睛。
+
+小秋子，我今天又去了老爷爷的唱片店。那时候老爷爷问我手里的小布袋装着什么，我打开给他看。接着他和我比划了几下，放了一首歌给我听。到现在我才明白他那会说的一句话，小秋子你一定也不知道，他说红豆寄相思。
+
+小秋子，这回我找齐了。红小豆，薏米，蜂蜜。可是还没煮熟我就把火给关掉了。小秋子，你怎么不告诉我要花上这么长的时间？我等不到红小豆开花，时间越久，我就越想念你，好难熬。小秋子，你还在熬红豆吗，你不要总是这么笨笨的好不好。
+
+小秋子，生日快乐。我们都二十岁了，再见到你的时候会是几岁呢，那会你还会不会喜欢我。小秋子，你不要再喜欢我了吧。
+
+小秋子！我不喜欢你了！
+
+红豆绽开，一锅黏稠，关火，待冷加上蜂蜜。小秋子坐在厨房里愣愣看着桌上的一碗红豆薏米汤。
+
+窗外鸟儿飞来了，花开了，叶子绿了又黄了，雪又下得街道白茫茫了，红豆香又从厨房飘出去了。
+
+“小四月，你要去哪儿？”
+ “我也不知道的地方。”
+ “你还回来吗？”
+ “小秋子，我不知道。”
+ “我等你呀，我还给你煮红豆。”
+ “小秋子，我们不会在一起了。”
+ “那我熬着，只为你。”</string>
+   <string name="app_nametrue">周杰伦</string>
+    <string name="setting_recommend_words">献给同桌的璐</string>
+
+</resources>

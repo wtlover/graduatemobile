@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="50dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/otherprofile_bottom_layout_chat"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_weight="1"
+        android:background="@anim/sst_comm_button_colorselector"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.bgw.an.app.activity.chat.view.HandyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="与 ta 聊天"
+            android:textColor="@color/font_value"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.bgw.an.app.activity.chat.view.WifiSearchView
+        android:id="@+id/search_animation_wt_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.bgw.an.app.activity.chat.view.HeaderLayout
+            android:id="@+id/wifiap_header"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+        </com.bgw.an.app.activity.chat.view.HeaderLayout>
+
+        <!--
+             <include
+            android:id="@+id/wifiap_header"
+            layout="@layout/include_header" />
+        -->
+
+        <!--
+              <LinearLayout
+            android:id="@+id/linaerlayouttop"
+            style="@style/comm_wh_m0"
+            android:layout_weight="1"
+            android:background="@color/gray2" >
+
+            <com.bgw.an.app.comm.bar.NavigationBar
+                android:id="@+id/bar_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:background_right="@drawable/search_wt"
+                app:function="text_title|button_left|button_right|text_right"
+                app:text_title="@string/chat_create" >
+            </com.bgw.an.app.comm.bar.NavigationBar>
+        </LinearLayout>
+        -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:background="@color/BUTTOMCOLOR"
+            android:orientation="vertical"
+            android:weightSum="9" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="5"
+                android:background="@color/transparent"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/wt_list_wt_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/wt_prompt_wt_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/White"
+                    android:gravity="center_horizontal|bottom"
+                    android:textColor="@color/red_true"
+                    android:textSize="17.0sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/prompt_ap_text_wt_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/White"
+                    android:gravity="center_horizontal|bottom"
+                    android:textColor="@color/red_true"
+                    android:textSize="17.0sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/gray1" />
+
+                <LinearLayout
+                    android:id="@+id/create_ap_llayout_wt_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/White"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/radar_gif_wt_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:src="@drawable/ap_3"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <com.bgw.aw.utils.impl.DrawableView
+                    android:id="@+id/drawableView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/create_btn_wt_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:background="@anim/sst_comm_button_colorselector"
+                    android:gravity="center"
+                    android:text="创建热点"
+                    android:textColor="@color/font_value"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/wifiap_btn_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:background="@anim/sst_comm_button_colorselector"
+                    android:gravity="center"
+                    android:text="@string/btn_return"
+                    android:textColor="@color/font_value"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/gray1" />
+
+                <Button
+                    android:id="@+id/wifiap_btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:background="@anim/sst_comm_button_colorselector"
+                    android:gravity="center"
+                    android:text="@string/btn_next"
+                    android:textColor="@color/font_value"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

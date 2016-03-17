@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.bgw.an.app.activity.chat.view.ParallaxContainer
+        android:id="@+id/parallaxContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.bgw.an.app.activity.chat.view.ParallaxContainer>
+
+    <!-- android:src="@drawable/bg1" -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg1"
+        android:contentDescription="@string/hello_world" >
+    </ImageView>
+
+    <Button
+        android:id="@+id/btn"
+        style="@style/white_20size_font"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/margin_size30"
+        android:background="@drawable/btn_login_2x"
+        android:gravity="center"
+        android:text="立即进入"
+        />
+
+</RelativeLayout>

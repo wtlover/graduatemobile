@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/wan/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="AimActionBar">
+        <attr name="text_left" format="reference|string" />
+        <attr name="text_right" format="reference|string" />
+        <attr name="text_title" format="reference|string" />
+        <attr name="background" format="reference" />
+        <attr name="background_left" format="reference" />
+        <attr name="background_right" format="reference" />
+        <attr name="background_title" format="reference" />
+        <attr name="function">
+            <flag name="text_left" value="1" />
+            <flag name="text_right" value="2" />
+            <flag name="text_title" value="4" />
+            <flag name="button_left" value="8" />
+            <flag name="button_right" value="16" />
+            <flag name="button_title" value="32" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FragmentIndicatorLayout">
+        <attr name="numberOfitems" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="TabbarItemLayout">
+        <attr name="icon" format="integer" />
+        <attr name="text" format="integer" />
+        <attr name="textalignment">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="lefttext" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="swipelistviewstyle">
+        <attr name="right_width" format="dimension" />
+    </declare-styleable>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/wan/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/wan/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">wan</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/wan/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/an/res/values/arrays.xml -->
+    <eat-comment />
+
+    <string-array name="chat_audio_type">
+        <item>智能切换</item>
+        <item>扬声器模式(免提)</item>
+        <item>听筒模式</item>
+    </string-array>
+    <string-array name="onlinestate_type">
+        <item>在线</item>
+        <item>忙碌</item>
+        <item>隐身</item>
+        <item>离线</item>
+    </string-array>
+    <string-array name="reportfeed_items">
+        <item>骚扰信息</item>
+        <item>虚假身份</item>
+        <item>广告欺诈</item>
+        <item>不当发言</item>
+    </string-array>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/an/res/values/attrs.xml -->
+    <eat-comment />
+
+    <attr name="a_in" />
+    <attr name="a_out" />
+    <attr name="x_in" />
+    <attr name="x_out" />
+    <attr name="y_in" />
+    <attr name="y_out" />
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/an/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="BUTTOMCOLOR">#38b7ea</color>
+    <color name="BUTTON_BG">#c2c7cc</color>
+    <color name="BUTTON_PRESSED">#000033</color>
+    <color name="INPUT_COLOR">#FF6A6A</color>
+    <color name="INPUT_TEXTCOLOR">#000033</color>
+    <color name="Whit">#FFFFFF</color>
+    <color name="White">#FFFFFF</color>
+    <color name="background">#ededed</color>
+    <color name="background_normal">#fffffbf0</color>
+    <color name="background_normal_press">#ffece7da</color>
+    <color name="bg_headerbar_spinner_normal">@color/transparent</color>
+    <color name="bg_headerbar_spinner_press">#7f000000</color>
+    <color name="bg_headerbar_spinner_selected">#5f000000</color>
+    <color name="bg_sitespan">#ffece7d9</color>
+    <color name="bg_sitespan_press">#ffe0dbce</color>
+    <color name="bgcolor">#FFFAFA</color>
+    <color name="black">#000000</color>
+    <color name="blue">#ff0f81d9</color>
+    <color name="dark_gray">#3d454c</color>
+    <color name="dark_gray_pressed">#373e44</color>
+    <color name="darker_gray">#1f2226</color>
+    <color name="devideline">#ffd0c9b8</color>
+    <color name="devideline_listview">#ffe5e2d4</color>
+    <color name="dialog_backgroud_full">#6d000000</color>
+    <color name="dialog_divider">#ffbfcbd3</color>
+    <color name="dialog_listitem_press">#ffd0dce4</color>
+    <color name="download_progressbar_bg">#4c000000</color>
+    <color name="drap_bar_word_color">#ff3e7ec8</color>
+    <color name="dropbar_text_color">#ff434343</color>
+    <color name="font_attribute">#ff000000</color>
+    <color name="font_value">#ff888271</color>
+    <color name="gender_famal">#ffffaed8</color>
+    <color name="gender_male">#ff65b1ea</color>
+    <color name="gold1">#FFD700</color>
+    <color name="gold2">#D9D919</color>
+    <color name="gray">#ff7f7f7f</color>
+    <color name="gray1">#aaaaaa</color>
+    <color name="gray2">#A1A1A1</color>
+    <color name="green">#50B3FA</color>
+    <color name="horizontal_line">#DDDDDD</color>
+    <color name="ivory">#FFFFF0</color>
+    <color name="light_gray">#c2c7cc</color>
+    <color name="light_notes_color">#ff999999</color>
+    <color name="link_color">#ff4abad7</color>
+    <color name="loan_butBackground">#ed6d48</color>
+    <color name="loan_title">#ed6d48</color>
+    <color name="login_logo_bg">#FAFAFA</color>
+    <color name="main_color_white">#ffffff</color>
+    <color name="maintab_text_normal">#ffc1c1c1</color>
+    <color name="maintab_text_selected_color">#ffffffff</color>
+    <color name="menu_text">#ff555555</color>
+    <color name="msg_editor_backgroud">#ffececec</color>
+    <color name="msg_emote_divider">#ffa1a1a1</color>
+    <color name="msg_plus_item_press">#ff1d1d1d</color>
+    <color name="msg_short_line_normal">#ffafafaf</color>
+    <color name="msg_short_line_selected">#ff5cbde3</color>
+    <color name="msg_status_failed">#ffe64646</color>
+    <color name="msg_status_new">#fffff2cc</color>
+    <color name="msg_status_new_stroke">#ffff9b2f</color>
+    <color name="msg_status_read">#ff82c85f</color>
+    <color name="msg_status_sending">#ff50a5c3</color>
+    <color name="msg_status_sent">#ffeb7837</color>
+    <color name="nocolor">#00000000</color>
+    <color name="notes_color">#ff777777</color>
+    <color name="profile_avater_cover_normal">#00000000</color>
+    <color name="profile_avater_cover_selected">#7f000000</color>
+    <color name="red">#EE00EE</color>
+    <color name="red_true">#FF0000</color>
+    <color name="round_corner_filter_green">#ff66ccff</color>
+    <color name="silvery1">#E6E8FA</color>
+    <color name="silvery2">#C7C7C7</color>
+    <color name="silvery3">#C0C0C0</color>
+    <color name="sstcomm">#f26d6e</color>
+    <color name="sstcommzly">#ef5b62</color>
+    <color name="sstcommzx1">#42ab82</color>
+    <color name="sstcommzx2">#24aa70</color>
+    <color name="sstgray">#58C6B5</color>
+    <color name="super_bg_color">#FAFAFA</color>
+    <color name="super_bg_mise">#F0FFF0</color>
+    <color name="super_bg_white">#FFFFFF</color>
+    <color name="text_color">#ff434343</color>
+    <color name="textcolor">#ed6d48</color>
+    <color name="timestampline">#ffe5e1de</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_background">#00ffffff</color>
+    <color name="truegreen">#00FF00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="xigua">#F56E7C</color>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/an/build/intermediates/exploded-aar/WorkSpace%20Android/wan/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="AimActionBar">
+        <attr name="text_left" format="reference|string" />
+        <attr name="text_right" format="reference|string" />
+        <attr name="text_title" format="reference|string" />
+        <attr name="background" format="reference" />
+        <attr name="background_left" format="reference" />
+        <attr name="background_right" format="reference" />
+        <attr name="background_title" format="reference" />
+        <attr name="function">
+            <flag name="text_left" value="1" />
+            <flag name="text_right" value="2" />
+            <flag name="text_title" value="4" />
+            <flag name="button_left" value="8" />
+            <flag name="button_right" value="16" />
+            <flag name="button_title" value="32" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FragmentIndicatorLayout">
+        <attr name="numberOfitems" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="TabbarItemLayout">
+        <attr name="icon" format="integer" />
+        <attr name="text" format="integer" />
+        <attr name="textalignment">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="lefttext" format="integer" />
+    </declare-styleable>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/an/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="gifView">
+
+        <!-- 图片来源 -->
+        <attr name="src" format="integer" />
+
+        <!-- 播放延迟 -->
+        <attr name="delay" format="integer" />
+
+        <!-- 设置是否停止 -->
+        <attr name="stop" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/an/build/intermediates/exploded-aar/WorkSpace%20Android/wan/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="swipelistviewstyle">
+        <attr name="right_width" format="dimension" />
+    </declare-styleable>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/an/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_size10">10dp</dimen>
+    <dimen name="margin_size100">100dp</dimen>
+    <dimen name="margin_size30">30dp</dimen>
+    <dimen name="margin_size50">50dp</dimen>
+    <dimen name="margin_size70">70dp</dimen>
+    <dimen name="test_size13">13sp</dimen>
+    <dimen name="test_size15">15sp</dimen>
+    <dimen name="test_size18">18sp</dimen>
+    <dimen name="test_size21">21sp</dimen>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/an/res/values/strings.xml -->
+    <eat-comment />
+
+    <drawable name="button_normal">#EE00EE</drawable>
+    <drawable name="button_pressed">#FF6A6A</drawable>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/an/res/values/drawables.xml -->
+    <eat-comment />
+
+    <drawable name="transparent">@color/transparent</drawable>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/an/res/values/ids.xml -->
+    <eat-comment />
+
+    <item name="containerAdapter" type="id"/>
+    <item name="parallax_pager" type="id"/>
+    <item name="parallax_tag" type="id"/>
+    <item name="sunshuntao" type="id"/>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/an/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="MyWordsToYou">感情就像一场雪，下的时候那般美，化的时候却这般凄凉。别再用我的过去来评价我，我早就不是以前那个我了。为了看那场雪... </string>
+    <string name="TO">“小秋子，为什么红豆⋯有一股水槽味啊⋯”
+ “这个⋯煮之前要用水泡的，不小心忘掉了，就，就泡了一夜⋯”小秋子低头搓着衣角，小嘴巴撅了起来。“小四月不吃的话⋯”
+
+“谁说我不吃的！”
+
+小秋子慢慢地把碗推到小四月面前，抬头用委屈的眼神看着。小四月端起碗，犹豫了一下，皱起眉毛，仰头喝了一大口。
+
+接着小四月的眼睛和腮帮子一样鼓鼓的，小秋子也跟着瞪大了眼睛。咕噜一下，小四月像是终于喘过气似的，不停捶着自己的胸口大笑。
+
+“哈哈哈哈哈小秋子你这个笨蛋！”
+ “唔⋯小四月，还有一大锅呢⋯”
+ “你怎么不吃呀。”
+ “做给小四月吃⋯昨天刚学的嘛。”小秋子的嘴巴撅得越厉害了。
+“有了小秋子！咱们可以加蜂蜜呀！”
+ “啊？”
+ “笨蛋！蜂蜜！我家里好多蜂蜜，我去拿哟。”
+
+咕噜噜，咕噜噜———春天的蜂蜜甜极了，那一天小四月喝下了整整一锅。
+
+红豆薏米汤，煮前将红小豆与薏米洗净后用清水浸泡。红小豆不易熟，浸泡四小时以上，薏米一小时即可。
+
+“小四月，一会吃午饭的时候，我去你班上找你，好不好。”
+ “怎么啦。”
+ “我⋯我给你带了红豆⋯”
+ “小秋子！你记不记得从小到大你都带了多少次红豆啦！”小四月戳了戳小秋子的脑门。
+“可是小四月不是喜欢的嘛，现在一点水槽味都没有啦。”
+
+走廊里小四月盯着小秋子，小秋子还像小时候一样，撅起嘴巴，摸了摸自己的脑门。上课铃响，顿时许多学生在走廊里飞奔，横窜一个竖窜一个。小四月被撞了个趔趄，小秋子赶忙上前抱住。相拥着，在一个接一个奔过的身影里停滞。
+
+也还像小时候取蜂蜜一样，小四月在椅子上用力地踮脚，伸手想要摸到柜子里的一罐蜂蜜。还没反应过来，就和椅子一起倒在地上了。怀里抱着蜂蜜，身下躺着小秋子。
+
+铃声停了，小秋子还呆呆站着。小四月的身影也飞奔着，消失在初夏溢满花香的走廊里。
+
+叮铃铃，叮铃铃———“小秋子，放学了，我们到图书馆，玉兰树那儿。”
+
+浸泡完后倒入锅中开火，先大火煮至水烧开，后转小火煮。其红小豆不易开花，可在煮沸之后继续倒入冷水，如此反复直至红小豆开花。
+
+“小秋子，你现在还那么早起？”
+ “嗯。”
+ “煮红豆？”
+ “嗯。”
+ “你可以晚上煮了，放冰箱里，多睡一会好。”
+ “秋天呀，小四月要喝热的。”
+ “早上再热一下不就好了。”
+ “那不好，不新鲜呐。”
+ “那晚上去你家喝行不行。”
+ “晚上冷，我给你送。”
+ “小秋子！！！”
+ “啊？！”
+
+小秋子吓得跳了起来，动静惊得头顶半枯的叶子飘落了几片。小四月坐在树下狠狠瞪着小秋子，小秋子惊恐得低头，揉搓着衣角。
+
+“小四月⋯小四月是怕么⋯”
+ “怕什么？”
+ “他们说⋯女孩子和女孩子⋯不可以⋯”
+ “不可以什么？”
+ “不可以⋯在一起⋯”
+ “一起什么？”
+ “不可以像⋯男孩子和女孩子那样⋯”
+ “哪样？”
+ “那样⋯”
+ “小秋子，你喜欢上下学都跟在我身后。”
+ “嗯。”
+ “你喜欢和我拥抱。”
+ “嗯。”
+ “你喜欢握着我的手，放进你大大的口袋里。”
+ “嗯。”
+ “小秋子，你只为我煮红豆。”
+ “嗯。”
+ “你想和我接吻。”
+ “嗯⋯⋯啊？！不是⋯小四月⋯我…”
+ “小秋子！我喜欢你！很喜欢！喜欢得快死了！”
+
+小四月在瑟瑟地秋风里起身，在飘摇的叶子间走近小秋子的面前，一吻冰凉，枯叶纷扬。小四月把脸埋进小秋子的怀里。
+
+一片叶子落到了头顶上。扑簌簌，扑簌簌———“可是小秋子，怎么办，冬天来的时候，我就要走了。”
+
+红小豆开花，熟前二十分钟可加入冰糖，待黏稠之后用汤匙搅拌，接着用小火煮至冰糖融化，蜂蜜也可。
+
+今天小秋子也起得很早，第一件事就是到门口翻信箱。清早小秋子的厨房里依然飘着浓浓的红豆香，而收到的信件却越来越少了，小秋子只得拿出以往的信件一一阅读。
+
+阅读前小秋子照旧把泡好的红豆和薏米倒入锅里，开火。
+
+小秋子，我这里是春天，你那里是冬天，我们隔了两个季节。我住的地方有很多很多鸽子，它们很喜欢吃玉米。昨天我丢了一颗红小豆，结果它牢牢卡在了鸽子的嘴巴上，也不知道它是怎么啄的，笨笨的样子很像你。
+
+小秋子，你在干嘛。我在数你给我的一把红小豆。我想过几天也去学学怎么煮，只是找不到薏米。直接煮红小豆也可以吧，好像一时也找不到蜂蜜。
+
+小秋子，我发现了一家很有趣的唱片店，里头老放着中文歌，是一个老爷爷。他有蓝色的眼睛，和他白白的头发很配，我很喜欢看着他，就像我们一起躺在草地上看着蓝天白云。
+
+水沸腾，小秋子起身往锅里倒入冷水，水霎时静了，小秋子盖好锅盖又坐回椅子上。
+
+小秋子，今天看见了一个和你很像的身影，我追了上去。发现她长得和你一点都不像，没有你好看。假如你也看见了和我很像的身影，你千万不要追上去，会很难过的。
+
+小秋子，你记得睡觉之前要把窗户关好，不然会感冒的。反正不会有人翻你窗户进来吃红豆了。
+
+水再次沸腾，小秋子用汤匙搅拌了几下。以往小秋子是笑得很开心的，她会把红豆薏米小心翼翼装进保温盒里，走在路上也小心翼翼捂在肚子里。这会不了，小秋子又一次被水汽熏出眼泪，倔起脸用袖子抹了抹眼睛。
+
+小秋子，我今天又去了老爷爷的唱片店。那时候老爷爷问我手里的小布袋装着什么，我打开给他看。接着他和我比划了几下，放了一首歌给我听。到现在我才明白他那会说的一句话，小秋子你一定也不知道，他说红豆寄相思。
+
+小秋子，这回我找齐了。红小豆，薏米，蜂蜜。可是还没煮熟我就把火给关掉了。小秋子，你怎么不告诉我要花上这么长的时间？我等不到红小豆开花，时间越久，我就越想念你，好难熬。小秋子，你还在熬红豆吗，你不要总是这么笨笨的好不好。
+
+小秋子，生日快乐。我们都二十岁了，再见到你的时候会是几岁呢，那会你还会不会喜欢我。小秋子，你不要再喜欢我了吧。
+
+小秋子！我不喜欢你了！
+
+红豆绽开，一锅黏稠，关火，待冷加上蜂蜜。小秋子坐在厨房里愣愣看着桌上的一碗红豆薏米汤。
+
+窗外鸟儿飞来了，花开了，叶子绿了又黄了，雪又下得街道白茫茫了，红豆香又从厨房飘出去了。
+
+“小四月，你要去哪儿？”
+ “我也不知道的地方。”
+ “你还回来吗？”
+ “小秋子，我不知道。”
+ “我等你呀，我还给你煮红豆。”
+ “小秋子，我们不会在一起了。”
+ “那我熬着，只为你。”</string>
+    <string name="aboutus_text">爱你、仅献给我最亲爱的公主。</string>
+    <string name="accept">接收</string>
+    <string name="action_settings">Settings</string>
+    <string name="aiyiqi">爱奇艺</string>
+    <string name="alpha60">0.6</string>
+    <string name="app_name">an</string>
+    <string name="app_nametrue">周杰伦</string>
+    <string name="aw">AW</string>
+    <string name="bottom1">Copyright ©2015 AW All Rights Reserved</string>
+    <string name="bottom2">Blog：http://bgwan.blog.163.com/</string>
+    <string name="bottom3">http://staryumou.icoc.cc/</string>
+    <string name="btn_finish">保    存</string>
+    <string name="btn_next">下一步</string>
+    <string name="btn_return">返    回</string>
+    <string name="chat">聊天</string>
+    <string name="chat_btn_send">发 送</string>
+    <string name="chat_create">创建链接</string>
+    <string name="chat_dialog_record_cancel_move">向上滑动可取消录音</string>
+    <string name="chat_dialog_record_cancel_up">松开手指可取消录音</string>
+    <string name="chat_toast_record_shorttime">时间太短  录音失败</string>
+    <string name="close">关闭</string>
+    <string name="current_path_label">当前路径: </string>
+    <string name="dialog_loading">正在加载,请稍后...</string>
+    <string name="dialog_loading_failue">数据加载失败...</string>
+    <string name="dialog_tips">提 示</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home">首页</string>
+    <string name="icon_aiqiyi">爱奇艺</string>
+    <string name="icon_knowage">知识文库</string>
+    <string name="icon_loveme">爱我</string>
+    <string name="icon_message">我的消息</string>
+    <string name="load_fail">加载失败</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="loading">正在加载...</string>
+    <string name="login_dialog_saveInfo">正在存储个人信息...</string>
+    <string name="login_hint_nickname">输入您的昵称</string>
+    <string name="login_text_age">岁</string>
+    <string name="login_text_birthday">选择生辰</string>
+    <string name="login_text_birthdaytips">提醒：您的出生日期不会出现在个人资料中。</string>
+    <string name="login_text_changeuser">更  换  账  户</string>
+    <string name="login_text_female">女</string>
+    <string name="login_text_lastlogin">上次登录: </string>
+    <string name="login_text_male">男</string>
+    <string name="login_text_onlinestate">在线</string>
+    <string name="login_text_selectsex">选择性别</string>
+    <string name="login_text_zhanghao">提醒：您可以更换账号或以当前账号登陆。</string>
+    <string name="login_toast_loginfailue">操作失败,请尝试重启程序。</string>
+    <string name="login_toast_nickname">请输入您的聊天昵称</string>
+    <string name="login_toast_sex">请选择性别</string>
+    <string name="maintab_text_message">消息</string>
+    <string name="maintab_text_nearby">附近</string>
+    <string name="maintab_text_setting">设置</string>
+    <string name="no_file">No files</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="select_path_for_save">选择接收文件的文件夹</string>
+    <string name="setting_btn_aboutus">关于爱我</string>
+    <string name="setting_btn_aw">回到爱我</string>
+    <string name="setting_btn_cleandb">清除数据</string>
+    <string name="setting_btn_closeapp">退      出</string>
+    <string name="setting_dialog_chatlog_delete_cancel">取 消</string>
+    <string name="setting_dialog_chatlog_delete_confirm">删除聊天记录会删除接收的所有图片、语音、文件</string>
+    <string name="setting_dialog_chatlog_delete_ok">确 定</string>
+    <string name="setting_dialog_chatlog_deleting">正在删除聊天记录...</string>
+    <string name="setting_dialog_logout_cancel">取 消</string>
+    <string name="setting_dialog_logout_confirm">确定要退出软件?</string>
+    <string name="setting_dialog_logout_ok">确 定</string>
+    <string name="setting_dialog_toast_delect_failue">操作失败,请尝试重启程序。</string>
+    <string name="setting_dialog_toast_delect_success">删除聊天记录成功</string>
+    <string name="setting_recommend_words">献给同桌的璐</string>
+    <string name="setting_text_myprofile">我的资料</string>
+    <string name="setting_text_sysconfig">系统设置</string>
+    <string name="setting_text_sysconfig_sound">声音提醒</string>
+    <string name="setting_text_sysconfig_vibra">震动提醒</string>
+    <string name="tabitem_toast_logout">再点击一次回到首页</string>
+    <string name="text_file_send_select">请选择一个要发送的文件</string>
+    <string name="toast_file_manager_unavailable">缺少文件管理器</string>
+    <string name="toast_sdcard_unavailable">SD卡不可用,请检查</string>
+    <string name="top">Settings</string>
+    <string name="welcome_btn_login">登 陆</string>
+    <string name="wifiap_btn_connectwifi">点击连接</string>
+    <string name="wifiap_btn_disconnect">点击断开</string>
+    <string name="wifiap_dialog_closeap_confirm">您确定需要关闭热点？</string>
+    <string name="wifiap_dialog_createap_closewifi_confirm">创建热点会关闭当前的WiFi，确认继续？</string>
+    <string name="wifiap_dialog_createap_nonsupport">您的设备不支持热点创建</string>
+    <string name="wifiap_dialog_createap_used">系统热点被占用，请先关闭热点后点击确定继续下一步</string>
+    <string name="wifiap_dialog_login_saveInfo">正在存储连接信息...</string>
+    <string name="wifiap_dialog_searchap_closeap_confirm">是否关闭当前热点去搜索其他热点？</string>
+    <string name="wifiap_text_connectap_ssid">\n热点名：</string>
+    <string name="wifiap_text_createap_creating">正在创建热点</string>
+    <string name="wifiap_text_createap_failue">热点创建失败，请尝试重新创建</string>
+    <string name="wifiap_text_createap_succeed">热点创建成功！</string>
+    <string name="wifiap_text_searchap_empty">未搜索到可用热点，可尝试重新搜索</string>
+    <string name="wifiap_text_searchap_searching">正在搜索附近的热点</string>
+    <string name="wifiap_toast_connectap_unavailable">请创建热点或者连接一个热点</string>
+    <!-- From: file:/G:/My%20Work/WorkSpace%20Android/an/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="Animation.Dialog" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog" />
+
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/font_value</item>
+        <item name="android:background">@drawable/btn_default</item>
+    </style>
+
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground"> @android:color/transparent </item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="EditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColorHint">@color/light_notes_color</item>
+        <item name="android:background">@drawable/edittext_default</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Linearlayout_Style">
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">LayoutOnclick</item>
+    </style>
+
+    <style name="Popup_Animation_Alpha" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/layout_alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/layout_alpha_out</item>
+    </style>
+
+    <style name="Popup_Animation_DownScale" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/enter_dropdown</item>
+        <item name="android:windowExitAnimation">@anim/exit_scale</item>
+    </style>
+
+    <style name="Popup_Animation_DownUp" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/enter_dropdown</item>
+        <item name="android:windowExitAnimation">@anim/exit_dropup</item>
+    </style>
+
+    <style name="Popup_Animation_PushDownUp" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_up_out</item>
+    </style>
+
+    <style name="Popup_Animation_ScaleScale" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/enter_scale</item>
+        <item name="android:windowExitAnimation">@anim/exit_scale</item>
+    </style>
+
+    <style name="Popup_Animation_SlideUp" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/enter_dropup</item>
+        <item name="android:windowExitAnimation">@anim/exit_dropdown</item>
+    </style>
+
+    <style name="Popup_Animation_UpDown" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/enter_dropup</item>
+        <item name="android:windowExitAnimation">@anim/exit_dropdown</item>
+    </style>
+
+    <style name="Style_Dialog_Button">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff425968</item>
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginRight">6.0dip</item>
+        <item name="android:minHeight">40.0dip</item>
+    </style>
+
+    <style name="TextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/font_value</item>
+        <item name="android:textColorHint">@color/light_notes_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Theme.App" parent="@style/AppBaseTheme">
+        <item name="android:colorForeground">@color/font_value</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:textColorLink">@color/link_color</item>
+    </style>
+
+    <style name="Theme.Light.CustomDialog" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff555555</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+
+    <style name="Theme.Light.FullScreenDialogAct" parent="@style/BaseDialog">
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff555555</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+
+    <style name="comm_wh_m0">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="comm_wh_mm">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="comm_wh_om">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="comm_wh_ww">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="content_margin">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">20.0dip</item>
+    </style>
+
+    <style name="imageview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="layout_top">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/bg_top_navigation_bar</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48.0dip</item>
+    </style>
+
+    <style name="light_black_16size_font">
+        <item name="android:textColor">@color/gray1</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="loading_small" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/wifiap_loading_anim</item>
+        <item name="android:layout_width">28dip</item>
+        <item name="android:layout_height">28dip</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="login_theme_font">
+        <item name="android:textColor">@color/bgcolor</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="scrollview_margin">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="sort_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="sst_navigationbar_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="text_navigation">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="textview_large">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textview_small">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="white_20size_font">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

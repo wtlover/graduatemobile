@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bgw.an.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linaerlayouttop"
+        style="@style/comm_wh_m0"
+        android:layout_weight="1"
+        android:background="@color/gray2" >
+
+        <com.bgw.an.app.comm.bar.NavigationBar
+            android:id="@+id/bar_navigation"
+            android:layout_width="match_parent"
+            android:background="@color/Whit"
+            android:layout_height="match_parent"
+            app:function="text_title|button_left|button_right|text_right"
+            app:text_title="AW" >
+        </com.bgw.an.app.comm.bar.NavigationBar>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/comm_wh_m0"
+        android:layout_weight="8"
+        android:background="@color/bgcolor"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/activity" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linaerlayoutbottom"
+        style="@style/comm_wh_m0"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:gravity="center" >
+
+        <include layout="@layout/activity_bottom" />
+    </LinearLayout>
+
+</LinearLayout>
